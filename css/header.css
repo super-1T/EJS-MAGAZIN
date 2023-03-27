@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 40px;
+}
+
+.navbar__list {
+    width: 578px;
+}
+
+.navbar__list-items {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 578px;
+
+
+}
+
+.navbar__list-help {
+    margin-left: 159px;
+    align-self: flex-end;
+}
