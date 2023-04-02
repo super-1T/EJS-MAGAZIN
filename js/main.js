@@ -1,13 +1,24 @@
-console.log('true')
+$(document).ready(function () {
+    $('#pagepiling').pagepiling();
+});
 
-const need = document.querySelector('.Need')
 
-function scrollToLastDivInPage() {
-    if (document.body.contains(need)) {
-        need.scrollIntoView({ behavior: 'smooth' })
-    }
-}
+var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+    },
+    loop: true,
+    speed: 5000,
+    slidesPerView: '1',
+    autoplay: {
+        enabled: true,
+        delay: 1,
+    },
 
-document.addEventListener("DOMContentLoaded", scrollToLastDivInPage)
-
+});
 

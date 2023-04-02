@@ -1,11 +1,28 @@
+header {
+    z-index: 1000;
+    position: fixed;
+
+    background: black
+}
+
 .navbar {
+    background: rgba(0, 0, 0, 0.448);
     width: 100%;
     display: flex;
     position: fixed;
     flex-direction: row;
     justify-content: center;
 
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav {
+    z-index: 10000;
+}
+
+.navbar a {
+    color: #C7C7C7;
 }
 
 .navbar__list {
@@ -24,4 +41,20 @@
 .navbar__list-help {
     margin-left: 159px;
     align-self: flex-end;
+}
+
+.navbar__list-items li a,
+.navbar__list-help a {
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: linear-gradient(red, red) 50% 100% no-repeat;
+    background-size: 0 1px;
+    transition: all 0.3s ease;
+}
+
+.navbar__list-items li a:hover,
+.navbar__list-help a:hover {
+    background-size: 100% 1px;
+    color: white;
 }

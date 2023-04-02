@@ -41,6 +41,12 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+
+html,
+body {
+    margin: 0;
+}
+
 input,
 button,
 textarea {
@@ -86,10 +92,19 @@ h5,
 h6 {
     font-size: inherit;
     font-weight: inherit;
-    color: blue;
+
 }
 
 .container-1600 {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.section {
+    background-color: #fff;
+}
+
+#pp-nav ul li span {
+    background-color: #facf78;
+    border: #facf01;
 }

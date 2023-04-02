@@ -3,19 +3,148 @@
 <head>
     <%- include('./partials/head'); %>
 </head>
-<header>
-    <%- include('./partials/header'); %>
-</header>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <body>
-<main>
-    <div class="main">
-        <img src="/img/main.jpg" alt="">
-        <img src="/img/main.jpg" alt="">
-        <div class="main__block">
 
+    <div id="pagepiling">
+        <header>
+            <%- include('./partials/header'); %>
+        </header>
+        <div class="section page1">
+            <div class="transp"></div>
+            <div class="container-1600">
+                <h1 class="page1__title">Expert</h1>
+                <div class="page1__help">
+                    <div class="page1__help-item">
+                        <a id="linkCommon" class="page1__item-link" href="">Получить консультацию</a>
+                    </div>
+                    <div class="page1__help-item">
+                        <a  class="page1__item-block" href="">
+                            <svg class="icon arrow" width="279px" height="10px">
+                                <use xlink:href="sprite.svg#arrow"></use>
+                            </svg>
+                            <div class="circle">
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="page1__line">
+                <div class="page1__line-wrapper container-1600">
+                    <div class="page1__line-item">
+                        <div class="page1__item-circle"></div>
+                        <p class="page1__item-text">Дизайн для любых идей</p>
+                    </div>
+                    <div class="page1__line-item">
+                        <div class="page1__item-circle"></div>
+                        <p class="page1__item-text">Европейские материалы</p>
+                    </div>
+                    <div class="page1__line-item">
+                        <div class="page1__item-circle"></div>
+                        <p class="page1__item-text">Европейские материалы</p>
+                    </div>
+                    <div class="page1__line-item">
+                        <div class="page1__item-circle"></div>
+                        <p class="page1__item-text">Пожизненная гарантия от взлома</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="section page2">
+            <div class="container-1600">
+                <h3 class="page2__title commonH3">Уникальное предложение</h3>
+                <div class="page2__wrapper">
+                    <div class="page2__wrapper-title">
+                        <div><h1 id="commonH1">В стоимость двери входит</h1></div>
+                        <div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <a href=""><img src="door_2.jpg" alt="door"></a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href=""><img src="door_2.jpg" alt="door"></a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href=""><img src="door_2.jpg" alt="door"></a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <a href=""><img src="door_2.jpg" alt="door"></a>
+                                  </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="page2__wrapper-item">
+                        <ul>
+                            <li>Качественные замки и ручки</li>
+                            <li>Изменение цвета и рисунка фрезеровки</li>
+                            <li>Замер размеров входной двери </li>
+                            <li>Доставка</li>
+                            <li>Демонтаж старой двери</li>
+                            <li>Установка новой двери</li>
+                            <li>Заделка швов монтажной пеной</li>
+                            <li>Уборка мусора</li>
+                            <li>Утилизация старой двери</li>
+                        </ul>
+                        <a href="" class="inShop">
+                            В магазин <span><svg width="200" height="8" viewBox="0 0 280 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M279.354 4.35353C279.549 4.15827 279.549 3.84168 279.354 3.64642L276.172 0.464442C275.976 0.26918 275.66 0.26918 275.464 0.464442C275.269 0.659704 275.269 0.976287 275.464 1.17155L278.293 3.99998L275.464 6.8284C275.269 7.02367 275.269 7.34025 275.464 7.53551C275.66 7.73077 275.976 7.73077 276.172 7.53551L279.354 4.35353ZM4.37114e-08 4.5L279 4.49998L279 3.49998L-4.37114e-08 3.5L4.37114e-08 4.5Z" fill="black"/>
+                                </svg></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section page3 page3-info">
+            <div class="container-1600">
+                <h3 class="page3__title">Преимущества</h3>
+                <div class="page3__wrapper">
+                    <div class="page3__wrapper-flex pad-flex">
+                        <div class="page3__flex-info">
+                            <h2 id="commonH2">Входная дверь - это вход в ваш дом, поэтому мы серьезно относимся                     к безопасности </h2>
+                            <p id="commonPTwo">Лучшие в отрасли функции безопасности, такие как закаленное безопасное стекло, петли  и крючки. Для этого наши двери должны были пройти проверку по всем аспектам безопасности.</p>
+                        </div>
+                        <div class="page3__flex-photo">
+                            <img style="max-height: 500px; width: 100%;" src="page3-door1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section page4 page3-info">
+            <div class="container-1600">
+                <div class="page3__wrapper">
+                    <div class="page3__wrapper-flex">
+                        <div class="page3__flex-info">
+                            <h2 id="commonH2">Expert - это достижение самых высоких целей на рынке</h2>
+                            <p id="commonPTwo">Поэтому мы имеем в своем арсенале самые высокотехнологичные материалы. Если вам нужен уникальный дизайн, уникальный цвет и сложное техническое оснащение-Expert с радостью предложит для вас решение. </p>
+                            <img style="max-height: 700px; width: 100%;" src="page3-door2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section page5 page3-info">
+            <div class="container-1600">
+                <div class="page3__wrapper">
+                    <div class="page3__wrapper-flex">
+                        <div class="page3__flex-info">
+                            <h2 id="commonH2">Входные двери Expert изготавливаются под ваши размеры, что делает                  их более теплоэффективными</h2>
+                            <p id="commonPTwo">Наши двери из ПВХ класса A + 21 являются самыми теплыми                         и безопасными из имеющихся. Мы также менее терпимы                                 к зазорам, чем другие поставщики, поэтому мы используем специальную отделку вокруг дверной коробки для более аккуратной отделки                     и предотвращения попадания холодного воздуха и тепла внутрь.</p>
+                            <img style="max-height: 600px; width: 100%;" src="page3-door3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">Some section</div>
     </div>
-</main>
 </body>
+<script type="text/javascript" src="jquery.pagepiling.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
 </html>
