@@ -1,0 +1,61 @@
+.hi {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hi__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.hi__block a {
+    font-weight: bold;
+    font-size: 20;
+
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background: #FFB701;
+    border-radius: 10px;
+    border: px solid black;
+
+    transition: all 0.2s ease;
+
+    cursor: pointer;
+}
+
+.hi__block a:hover {
+    background: #FFCA45;
+}
+
+.hi__block input,
+.hi__block button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.hi__block input {
+    width: 200px;
+    max-width: 200px;
+
+    border: 1px solid #FFB701;
+}
+
+.hi__block input:focus {
+    border-color: #FFCA45;
+}
+
+.hi__block label {
+    padding: 10px;
+}
+
+.hide-login {
+    display: none;
+}
+
+.show-login {
+    display: display;
+}

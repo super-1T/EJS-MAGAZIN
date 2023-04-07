@@ -5,7 +5,7 @@
     /* Браузер сначала попробует найти шрифт локально */
     src: local("Robodron Medium"),
         /* Если не получилось, загрузит woff2 */
-        url("RobodronMedium.woff2") format("woff2"),
+        url("/fonts/RobodronMedium.woff2") format("woff2"),
         /* Если браузер не поддерживает woff2, загрузит woff */
-        url("RobodronMedium.woff") format("woff");
+        url("/fonts/RobodronMedium.woff") format("woff");
 }

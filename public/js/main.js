@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
     $('#pagepiling').pagepiling();
 });
@@ -21,4 +22,11 @@ var swiper = new Swiper(".mySwiper", {
     },
 
 });
+
+
+
+
+
+
+
 

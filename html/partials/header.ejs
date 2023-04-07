@@ -11,7 +11,11 @@
         </ul>
       </div>
       <div class="navbar__list-help">
-        <a href="#helpme">Помочь выбрать</a>
+        <% if(user === undefined) { %>
+          <a href="/login">Регистрация/Авторизация</a>
+          <% }else { %>
+          <a href="#helpme">Выйти</a>
+            <% }%>
       </div>
     </div>
   </div>
